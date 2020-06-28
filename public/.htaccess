@@ -4,7 +4,7 @@
     </IfModule>
 
     RewriteEngine On
-    RewriteBase / # ←これを追加
+    RewriteBase /errand/
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
